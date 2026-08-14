@@ -1,0 +1,13 @@
+# 构建产物 / 运行时(通过 build.bat 生成,不纳入版本库)
+node/
+app/
+dist/
+node.zip
+
+# 用户数据(本地私有)
+data/
+
+# 系统杂项
+Thumbs.db
+Desktop.ini
+*.log
