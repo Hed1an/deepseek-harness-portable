@@ -12,6 +12,22 @@ Node.js 运行时打包成一个绿色文件夹,**目标电脑什么都不用装
 - 🔌 **零依赖**:无需安装 Node.js / npm / 任何命令行工具
 - 🔄 **自动更新**:启动时自动检查 npm 新版本并提示(可选)
 
+## 🖥️ 想要"桌面应用"?(桌面版)
+
+除了浏览器 Web UI 的便携版,同款产品还有一个 **Electron 桌面版**——独立原生窗口、黑金主题、托盘常驻、开机自启、自动更新:
+
+[**goldfish-desktop**](https://github.com/Hed1an/goldfish-desktop) → 下载 `DeepSeek-Harness-Desktop-Setup-*.exe` 双击安装即可。
+
+| | 便携版(本仓库) | 桌面版(goldfish-desktop) |
+|---|---|---|
+| 形态 | 浏览器 Web UI | Electron 原生窗口 |
+| 安装 | 解压即用(zip) | 安装包 `.exe` |
+| 数据 | 包内 `data\` | `%APPDATA%\...` |
+| 升级 | 解压覆盖 | 自动更新 |
+| 适合 | 绿色免安装 / U盘带走 | 原生应用感 / 自动更新 |
+
+> 两种形态同一套 dsh 内核,按使用习惯二选一即可。
+
 ## 📦 快速开始
 
 1. 下载最新版 `dsh-portable-*.zip`(见右侧 **Releases**)
